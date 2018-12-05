@@ -1,0 +1,523 @@
+﻿state,Product_Reporting,Customer_Value_Score,Page_Views
+Washington,AutoPurchase,0,0
+Washington,CreditCards,0,0
+Washington,Prequalification,0,34
+Washington,CreditAnalyzer,0,123
+Washington,Debt Relief,0,196
+Washington,Business Loans,"7,788.16","1,284"
+Washington,Reverse Mortgage,0,"1,838"
+Washington,Auto,"3,087.85","12,954"
+Washington,Home Equity,"1,862.31","16,109"
+Washington,Purchase,"3,185.10","40,815"
+Washington,Personal,"4,060.19","41,870"
+Washington,Refinance,147.1886959,"67,940"
+Alaska,Debt Relief,0,16
+Alaska,Prequalification,0,17
+Alaska,Reverse Mortgage,0,116
+Alaska,Business Loans,0,128
+Alaska,Auto,0,754
+Alaska,Home Equity,0,"1,009"
+Alaska,Personal,0,"2,439"
+Alaska,Purchase,0,"2,517"
+Alaska,Refinance,0,"3,713"
+Oregon,Prequalification,0,26
+Oregon,CreditAnalyzer,0,79
+Oregon,Debt Relief,0,179
+Oregon,Business Loans,0,780
+Oregon,Reverse Mortgage,"9,354.54","1,069"
+Oregon,Auto,0,"6,649"
+Oregon,Home Equity,0,"7,850"
+Oregon,Personal,"4,199.03","19,052"
+Oregon,Purchase,861.808937,"23,207"
+Oregon,Refinance,"1,183.89","33,787"
+California,AutoRefinance,0,0
+California,Student Loans,0,3
+California,CreditCards,"1,250,000",8
+California,Prequalification,0,168
+California,CreditAnalyzer,"16,806.72",595
+California,Debt Relief,"7,309.94","1,368"
+California,Business Loans,"4,344.05","6,906"
+California,Reverse Mortgage,0,"10,141"
+California,Auto,"1,888.29","79,437"
+California,Home Equity,"1,129.19","79,703"
+California,Purchase,"1,258.32","222,519"
+California,Personal,"3,155.53","272,537"
+California,Refinance,690.939844,"361,826"
+Nevada,Student Loans,0,3
+Nevada,CreditAnalyzer,0,47
+Nevada,Debt Relief,0,171
+Nevada,Business Loans,0,474
+Nevada,Reverse Mortgage,0,851
+Nevada,Auto,"1,547.27","6,463"
+Nevada,Home Equity,"1,294.00","7,728"
+Nevada,Purchase,"4,514.67","17,720"
+Nevada,Personal,"4,813.86","18,696"
+Nevada,Refinance,747.4958888,"26,756"
+Arizona,CreditCards,0.00,0
+Arizona,Student Loans,0.00,0
+Arizona,CreditAnalyzer,0,16
+Arizona,Prequalification,0,17
+Arizona,Debt Relief,0,187
+Arizona,Business Loans,"11,235.96",890
+Arizona,Reverse Mortgage,0,"2,428"
+Arizona,Auto,0,"13,239"
+Arizona,Home Equity,0,"13,816"
+Arizona,Personal,"3,734.45","34,811"
+Arizona,Purchase,243.6350347,"41,045"
+Arizona,Refinance,153.6523155,"65,082"
+Utah,Student Loans,0,2
+Utah,Prequalification,0,4
+Utah,CreditAnalyzer,0,11
+Utah,Debt Relief,0,94
+Utah,Business Loans,"22,026.43",454
+Utah,Reverse Mortgage,0,892
+Utah,Auto,"7,494.38","4,003"
+Utah,Home Equity,0,"5,297"
+Utah,Personal,"4,683.84","12,810"
+Utah,Purchase,602.5185274,"16,597"
+Utah,Refinance,"1,389.08","21,597"
+Idaho,Prequalification,0,21
+Idaho,Debt Relief,0,54
+Idaho,Business Loans,0,227
+Idaho,Reverse Mortgage,0,395
+Idaho,Auto,0,"1,755"
+Idaho,Home Equity,"6,331.12","3,159"
+Idaho,Personal,"4,816.96","6,228"
+Idaho,Purchase,0,"6,792"
+Idaho,Refinance,"1,943.26","10,292"
+New Mexico,Debt Relief,0,102
+New Mexico,Business Loans,0,274
+New Mexico,Reverse Mortgage,0,436
+New Mexico,Auto,0,"2,599"
+New Mexico,Home Equity,"6,457.86","3,097"
+New Mexico,Purchase,"2,652.17","7,541"
+New Mexico,Personal,"4,471.27","8,946"
+New Mexico,Refinance,0,"12,416"
+Colorado,AutoPurchase,0,1
+Colorado,CreditCards,"10,000,000",1
+Colorado,Student Loans,0,8
+Colorado,Prequalification,0,18
+Colorado,CreditAnalyzer,0,43
+Colorado,Debt Relief,0,143
+Colorado,Business Loans,0,"1,239"
+Colorado,Reverse Mortgage,0,"1,326"
+Colorado,Auto,"1,517.91","13,176"
+Colorado,Home Equity,0,"13,582"
+Colorado,Personal,"5,518.58","30,805"
+Colorado,Purchase,"1,447.05","34,553"
+Colorado,Refinance,571.6790213,"52,477"
+Wyoming,Debt Relief,0,15
+Wyoming,Business Loans,0,72
+Wyoming,Reverse Mortgage,0,131
+Wyoming,Auto,0,959
+Wyoming,Home Equity,0,"1,067"
+Wyoming,Purchase,"8,179.96","2,445"
+Wyoming,Personal,"3,907.78","2,559"
+Wyoming,Refinance,0,"4,079"
+Montana,Prequalification,0,18
+Montana,Debt Relief,0,52
+Montana,Business Loans,0,96
+Montana,Reverse Mortgage,0,402
+Montana,Auto,0,"1,478"
+Montana,Home Equity,0,"1,903"
+Montana,Personal,"2,655.34","3,766"
+Montana,Purchase,0,"4,503"
+Montana,Refinance,"1,390.82","7,190"
+North Dakota,CreditAnalyzer,0,24
+North Dakota,Debt Relief,0,25
+North Dakota,Business Loans,0,116
+North Dakota,Reverse Mortgage,0,145
+North Dakota,Home Equity,0,"1,296"
+North Dakota,Auto,0,"1,368"
+North Dakota,Purchase,0,"3,300"
+North Dakota,Personal,"4,981.32","4,015"
+North Dakota,Refinance,0,"4,283"
+South Dakota,CreditAnalyzer,0,19
+South Dakota,Debt Relief,0,20
+South Dakota,Reverse Mortgage,0,110
+South Dakota,Business Loans,0,123
+South Dakota,Home Equity,0,"1,021"
+South Dakota,Auto,0,"1,194"
+South Dakota,Personal,"9,848.98","3,046"
+South Dakota,Purchase,0,"3,088"
+South Dakota,Refinance,0,"4,160"
+Nebraska,Product Reporting,Customer Value Score,Page Views
+Nebraska,AutoPurchase,0,0
+Nebraska,Prequalification,0,0
+Nebraska,Debt Relief,0,55
+Nebraska,CreditAnalyzer,0,93
+Nebraska,Business Loans,0,336
+Nebraska,Reverse Mortgage,0,500
+Nebraska,Home Equity,"2,862.05","3,494"
+Nebraska,Auto,"2,488.80","4,018"
+Nebraska,Purchase,"2,931.98","10,232"
+Nebraska,Personal,"5,194.81","11,550"
+Nebraska,Refinance,0,"13,299"
+Kansas,CreditCards,0,1
+Kansas,Prequalification,0,18
+Kansas,CreditAnalyzer,"256,410.26",39
+Kansas,Debt Relief,0,146
+Kansas,Business Loans,0,446
+Kansas,Reverse Mortgage,0,662
+Kansas,Home Equity,0,"3,635"
+Kansas,Auto,"2,270.15","4,405"
+Kansas,Purchase,0,"12,645"
+Kansas,Personal,"1,490.76","13,416"
+Kansas,Refinance,0,"16,651"
+Oklahoma,CreditCards,0,1
+Oklahoma,Prequalification,0,11
+Oklahoma,CreditAnalyzer,0,31
+Oklahoma,Debt Relief,0,163
+Oklahoma,Business Loans,0,383
+Oklahoma,Reverse Mortgage,0,877
+Oklahoma,Home Equity,0,"5,280"
+Oklahoma,Auto,"4,957.04","6,052"
+Oklahoma,Purchase,"1,926.04","15,576"
+Oklahoma,Personal,"5,125.58","17,559"
+Oklahoma,Refinance,0,"19,632"
+Texas,AutoRefinance,0.00,0
+Texas,CreditCards,0.00,0
+Texas,Student Loans,0,2
+Texas,Prequalification,0,169
+Texas,CreditAnalyzer,0,251
+Texas,Debt Relief,"40,225.26","1,243"
+Texas,Business Loans,"3,835.09","5,215"
+Texas,Reverse Mortgage,"1,034.23","9,669"
+Texas,Home Equity,"1,673.02","59,772"
+Texas,Auto,"1,487.56","67,224"
+Texas,Purchase,"1,197.42","183,729"
+Texas,Refinance,570.9337622,"210,182"
+Texas,Personal,"3,173.92","217,397"
+Louisiana,Prequalification,0,25
+Louisiana,Debt Relief,0,146
+Louisiana,Business Loans,0,583
+Louisiana,Reverse Mortgage,0,"1,122"
+Louisiana,Home Equity,"4,505.18","6,659"
+Louisiana,Auto,"2,969.56","6,735"
+Louisiana,Purchase,"1,753.98","17,104"
+Louisiana,Personal,"1,555.29","19,289"
+Louisiana,Refinance,422.2438036,"23,683"
+Arkansas,CreditAnalyzer,0,25
+Arkansas,Debt Relief,0,124
+Arkansas,Business Loans,"26,525.20",377
+Arkansas,Reverse Mortgage,0,622
+Arkansas,Home Equity,"2,405.00","4,158"
+Arkansas,Auto,0,"4,416"
+Arkansas,Purchase,"1,754.69","11,398"
+Arkansas,Personal,824.4702778,"12,129"
+Arkansas,Refinance,"4,618.63","15,156"
+Missouri,Prequalification,0,29
+Missouri,CreditAnalyzer,0,85
+Missouri,Debt Relief,0,175
+Missouri,Business Loans,"31,779.66",944
+Missouri,Reverse Mortgage,0,"1,451"
+Missouri,Home Equity,0,"9,286"
+Missouri,Auto,817.6614881,"12,230"
+Missouri,Purchase,0,"26,773"
+Missouri,Personal,"1,788.16","33,554"
+Missouri,Refinance,548.3207676,"36,475"
+Iowa,Prequalification,0,20
+Iowa,CreditAnalyzer,0,28
+Iowa,Debt Relief,0,136
+Iowa,Business Loans,0,404
+Iowa,Reverse Mortgage,0,613
+Iowa,Auto,"2,365.74","4,227"
+Iowa,Home Equity,"11,698.64","4,274"
+Iowa,Purchase,887.941751,"11,262"
+Iowa,Personal,"4,540.64","13,214"
+Iowa,Refinance,0,"17,262"
+Minnesota,AutoPurchase,0.00,0
+Minnesota,Prequalification,0,19
+Minnesota,CreditAnalyzer,0,40
+Minnesota,Debt Relief,0,135
+Minnesota,Business Loans,0,724
+Minnesota,Reverse Mortgage,0,"1,063"
+Minnesota,Home Equity,0,"8,311"
+Minnesota,Auto,"2,671.89","11,228"
+Minnesota,Purchase,378.1576161,"26,444"
+Minnesota,Personal,"2,195.55","27,328"
+Minnesota,Refinance,782.2277847,"38,352"
+Hawaii,CreditAnalyzer,0,22
+Hawaii,Debt Relief,0,82
+Hawaii,Business Loans,0,144
+Hawaii,Reverse Mortgage,0,412
+Hawaii,Auto,0,"1,790"
+Hawaii,Home Equity,"3,278.69","3,050"
+Hawaii,Purchase,0,"5,338"
+Hawaii,Personal,"1,270.97","7,868"
+Hawaii,Refinance,0,"9,786"
+Wisconsin,CreditCards,0,2
+Wisconsin,CreditAnalyzer,0,6
+Wisconsin,Prequalification,0,24
+Wisconsin,Debt Relief,0,221
+Wisconsin,Business Loans,0,675
+Wisconsin,Reverse Mortgage,0,"1,102"
+Wisconsin,Home Equity,0,"7,921"
+Wisconsin,Auto,0,"8,938"
+Wisconsin,Purchase,"1,677.36","23,847"
+Wisconsin,Personal,"1,227.19","24,446"
+Wisconsin,Refinance,"1,439.26","34,740"
+Illinois,Prequalification,"123,456.79",81
+Illinois,CreditAnalyzer,0,277
+Illinois,Debt Relief,"10,449.32",957
+Illinois,Business Loans,"3,923.11","2,549"
+Illinois,Reverse Mortgage,0,"3,061"
+Illinois,Home Equity,724.296527,"27,613"
+Illinois,Auto,"1,236.82","32,341"
+Illinois,Purchase,882.2454407,"79,343"
+Illinois,Refinance,452.857531,"110,410"
+Illinois,Personal,"1,976.50","111,308"
+Tennessee,AutoPurchase,0,1
+Tennessee,AutoRefinance,0,2
+Tennessee,CreditCards,"1,000,000",20
+Tennessee,Student Loans,0,97
+Tennessee,Prequalification,"7,283.32","1,373"
+Tennessee,CreditAnalyzer,"25,374.27","3,941"
+Tennessee,Debt Relief,"14,240.40","15,449"
+Tennessee,Business Loans,"6,184.61","58,209"
+Tennessee,Reverse Mortgage,570.2099513,"87,687"
+Tennessee,Auto,"1,799.01","667,032"
+Tennessee,Home Equity,"1,092.56","668,157"
+Tennessee,Purchase,"1,443.90","1,869,939"
+Tennessee,Personal,"3,803.71","2,113,728"
+Tennessee,Refinance,809.0265998,"2,620,433"
+Alabama,Student Loans,0,2
+Alabama,Prequalification,0,33
+Alabama,CreditAnalyzer,"277,777.78",36
+Alabama,Debt Relief,0,198
+Alabama,Business Loans,0,692
+Alabama,Reverse Mortgage,0,"1,299"
+Alabama,Home Equity,"1,135.85","8,804"
+Alabama,Auto,"2,257.34","8,860"
+Alabama,Purchase,"2,039.32","24,518"
+Alabama,Refinance,603.0817477,"33,163"
+Alabama,Personal,"5,870.19","35,774"
+Florida,AutoPurchase,0,0
+Florida,AutoRefinance,0,1
+Florida,Student Loans,0,19
+Florida,Prequalification,0,75
+Florida,CreditAnalyzer,"145,631.07",206
+Florida,Debt Relief,0,913
+Florida,Business Loans,"4,266.21","4,688"
+Florida,Reverse Mortgage,0,"8,644"
+Florida,Auto,"1,187.98","50,506"
+Florida,Home Equity,534.8260924,"56,093"
+Florida,Personal,"4,542.66","136,484"
+Florida,Purchase,"1,623.89","160,109"
+Florida,Refinance,966.3376287,"206,967"
+Georgia,AutoRefinance,0,0
+Georgia,Student Loans,0,2
+Georgia,CreditAnalyzer,0,56
+Georgia,Prequalification,0,77
+Georgia,Debt Relief,"37,831.02",793
+Georgia,Business Loans,"4,194.63","2,384"
+Georgia,Reverse Mortgage,0,"3,479"
+Georgia,Home Equity,"2,552.88","27,420"
+Georgia,Auto,916.6462967,"32,728"
+Georgia,Purchase,"1,380.95","86,897"
+Georgia,Refinance,999.000999,"110,110"
+Georgia,Personal,"4,627.72","121,010"
+Kentucky,CreditAnalyzer,0,75
+Kentucky,Debt Relief,0,168
+Kentucky,Business Loans,0,514
+Kentucky,Reverse Mortgage,0,834
+Kentucky,Auto,0,"7,152"
+Kentucky,Home Equity,0,"7,405"
+Kentucky,Purchase,"1,065.64","18,768"
+Kentucky,Personal,"6,592.25","22,754"
+Kentucky,Refinance,774.0537193,"25,838"
+Indiana,AutoPurchase,0,0
+Indiana,Prequalification,0,14
+Indiana,CreditAnalyzer,0,49
+Indiana,Debt Relief,"39,840.64",251
+Indiana,Business Loans,0,773
+Indiana,Reverse Mortgage,0,"1,496"
+Indiana,Home Equity,0,"12,041"
+Indiana,Auto,"1,535.98","13,021"
+Indiana,Purchase,617.0934897,"32,410"
+Indiana,Personal,"2,498.69","40,021"
+Indiana,Refinance,"1,372.90","43,703"
+Michigan,Prequalification,0,30
+Michigan,CreditAnalyzer,0,106
+Michigan,Debt Relief,0,546
+Michigan,Business Loans,0,"1,362"
+Michigan,Reverse Mortgage,0,"2,105"
+Michigan,Auto,"1,244.32","16,073"
+Michigan,Home Equity,955.3835865,"20,934"
+Michigan,Purchase,992.4573243,"50,380"
+Michigan,Personal,"4,119.39","58,261"
+Michigan,Refinance,430.5705059,"69,675"
+Ohio,AutoPurchase,0,0
+Ohio,CreditAnalyzer,0,34
+Ohio,Prequalification,0,34
+Ohio,Debt Relief,"38,387.72",521
+Ohio,Business Loans,0,"1,852"
+Ohio,Reverse Mortgage,0,"2,753"
+Ohio,Home Equity,881.6787163,"22,684"
+Ohio,Auto,"1,144.82","26,205"
+Ohio,Purchase,"2,981.60","67,078"
+Ohio,Personal,"2,727.90","80,648"
+Ohio,Refinance,"1,258.88","87,379"
+South Carolina,Prequalification,0,20
+South Carolina,CreditAnalyzer,0,78
+South Carolina,Debt Relief,"142,857.14",350
+South Carolina,Business Loans,"117,820.32",679
+South Carolina,Reverse Mortgage,0,"1,415"
+South Carolina,Home Equity,0,"9,237"
+South Carolina,Auto,"5,182.42","9,648"
+South Carolina,Purchase,"1,110.37","27,018"
+South Carolina,Personal,"5,268.18","30,371"
+South Carolina,Refinance,856.433241,"35,029"
+North Carolina,AutoPurchase,0,0
+North Carolina,AutoRefinance,0,0
+North Carolina,Student Loans,0,1
+North Carolina,Prequalification,0,78
+North Carolina,CreditAnalyzer,0,89
+North Carolina,Debt Relief,0,636
+North Carolina,Business Loans,0,"2,079"
+North Carolina,Reverse Mortgage,0,"2,406"
+North Carolina,Home Equity,443.1838327,"22,564"
+North Carolina,Auto,412.5072189,"24,242"
+North Carolina,Purchase,"1,396.45","71,610"
+North Carolina,Personal,"4,384.26","79,831"
+North Carolina,Refinance,782.8313893,"89,419"
+Virginia,AutoPurchase,0,0
+Virginia,Prequalification,0,46
+Virginia,Debt Relief,0,380
+Virginia,CreditAnalyzer,0,421
+Virginia,Business Loans,"6,002.40","1,666"
+Virginia,Reverse Mortgage,"4,664.18","2,144"
+Virginia,Home Equity,0,"15,987"
+Virginia,Auto,"3,820.54","18,322"
+Virginia,Personal,"3,808.30","49,891"
+Virginia,Purchase,"1,114.72","53,825"
+Virginia,Refinance,783.4739234,"76,582"
+Pennsylvania,CreditCards,0,0
+Pennsylvania,Student Loans,0,15
+Pennsylvania,Prequalification,0,33
+Pennsylvania,CreditAnalyzer,"428,571.43",70
+Pennsylvania,Debt Relief,0,993
+Pennsylvania,Business Loans,"4,531.04","2,207"
+Pennsylvania,Reverse Mortgage,0,"3,329"
+Pennsylvania,Auto,"2,175.25","27,583"
+Pennsylvania,Home Equity,660.9385327,"30,260"
+Pennsylvania,Purchase,"1,786.94","72,750"
+Pennsylvania,Personal,"5,001.93","95,963"
+Pennsylvania,Refinance,"1,342.73","104,265"
+New York,AutoRefinance,0,1
+New York,CreditCards,0,1
+New York,Student Loans,0,8
+New York,Prequalification,0,94
+New York,CreditAnalyzer,0,237
+New York,Debt Relief,0,672
+New York,Business Loans,"7,662.84","3,915"
+New York,Reverse Mortgage,0,"4,019"
+New York,Auto,"4,950.99","30,297"
+New York,Home Equity,505.5611729,"39,560"
+New York,Purchase,"2,334.53","98,521"
+New York,Personal,"5,385.46","113,268"
+New York,Refinance,"1,320.92","128,698"
+Connecticut,CreditAnalyzer,0,3
+Connecticut,Student Loans,0,9
+Connecticut,Prequalification,0,42
+Connecticut,Debt Relief,0,260
+Connecticut,Business Loans,0,690
+Connecticut,Reverse Mortgage,0,746
+Connecticut,Auto,0,"7,494"
+Connecticut,Home Equity,"1,285.68","7,778"
+Connecticut,Personal,"7,706.70","18,166"
+Connecticut,Purchase,535.5039092,"18,674"
+Connecticut,Refinance,991.6044159,"30,254"
+New Jersey,Student Loans,0,6
+New Jersey,Prequalification,0,23
+New Jersey,CreditAnalyzer,0,87
+New Jersey,Debt Relief,0,454
+New Jersey,Business Loans,"5,865.10","1,705"
+New Jersey,Reverse Mortgage,"3,809.52","2,625"
+New Jersey,Auto,528.6529922,"18,916"
+New Jersey,Home Equity,914.1185612,"21,879"
+New Jersey,Purchase,"1,284.90","54,479"
+New Jersey,Personal,"5,198.99","59,627"
+New Jersey,Refinance,712.3860182,"84,224"
+Delaware,CreditAnalyzer,"454,545.45",22
+Delaware,Debt Relief,0,109
+Delaware,Business Loans,0,129
+Delaware,Reverse Mortgage,0,331
+Delaware,Auto,0,"2,246"
+Delaware,Home Equity,0,"2,442"
+Delaware,Purchase,0,"6,347"
+Delaware,Personal,"3,112.36","6,426"
+Delaware,Refinance,0,"9,920"
+Maryland,Prequalification,0,10
+Maryland,CreditAnalyzer,0,32
+Maryland,Debt Relief,0,432
+Maryland,Business Loans,0,899
+Maryland,Reverse Mortgage,"6,743.09","1,483"
+Maryland,Home Equity,0,"12,654"
+Maryland,Auto,773.6943907,"12,925"
+Maryland,Purchase,"1,307.77","38,233"
+Maryland,Personal,"2,156.67","41,731"
+Maryland,Refinance,"1,210.82","57,812"
+New Hampshire,CreditAnalyzer,0,19
+New Hampshire,Debt Relief,0,84
+New Hampshire,Business Loans,0,225
+New Hampshire,Reverse Mortgage,0,321
+New Hampshire,Home Equity,"18,975.33","3,162"
+New Hampshire,Auto,"18,820.58","3,188"
+New Hampshire,Personal,0,"6,249"
+New Hampshire,Purchase,0,"7,311"
+New Hampshire,Refinance,0,"12,167"
+Massachusetts,AutoPurchase,0,0
+Massachusetts,Student Loans,0,17
+Massachusetts,Prequalification,0,22
+Massachusetts,CreditAnalyzer,0,133
+Massachusetts,Debt Relief,0,326
+Massachusetts,Business Loans,0,845
+Massachusetts,Reverse Mortgage,0,"1,840"
+Massachusetts,Home Equity,"1,953.51","15,357"
+Massachusetts,Auto,"1,821.94","16,466"
+Massachusetts,Personal,"4,541.71","35,229"
+Massachusetts,Purchase,531.7593257,"37,611"
+Massachusetts,Refinance,800,"62,500"
+Maine,CreditAnalyzer,0,64
+Maine,Debt Relief,"232,558.14",129
+Maine,Business Loans,0,135
+Maine,Reverse Mortgage,0,331
+Maine,Auto,"9,765.63","2,048"
+Maine,Home Equity,"4,533.09","2,206"
+Maine,Purchase,"1,865.32","5,361"
+Maine,Personal,"1,626.81","6,147"
+Maine,Refinance,0,"8,537"
+Vermont,Debt Relief,0,55
+Vermont,Business Loans,0,87
+Vermont,Reverse Mortgage,0,148
+Vermont,Auto,0,"1,157"
+Vermont,Home Equity,0,"1,270"
+Vermont,Personal,0,"2,439"
+Vermont,Purchase,0,"2,674"
+Vermont,Refinance,0,"4,861"
+Rhode Island,Debt Relief,0,83
+Rhode Island,Business Loans,0,137
+Rhode Island,Reverse Mortgage,0,266
+Rhode Island,Auto,0,"2,383"
+Rhode Island,Home Equity,0,"2,417"
+Rhode Island,Purchase,"2,271.69","4,402"
+Rhode Island,Personal,0,"5,357"
+Rhode Island,Refinance,"2,393.78","8,355"
+West Virginia,Debt Relief,0,165
+West Virginia,Business Loans,0,210
+West Virginia,Reverse Mortgage,0,545
+West Virginia,Auto,0,"2,609"
+West Virginia,Home Equity,0,"3,236"
+West Virginia,Purchase,"2,569.37","7,784"
+West Virginia,Personal,"5,543.85","9,019"
+West Virginia,Refinance,0,"10,107"
+Mississippi,CreditAnalyzer,0,78
+Mississippi,Debt Relief,"57,471.26",174
+Mississippi,Business Loans,0,403
+Mississippi,Reverse Mortgage,0,515
+Mississippi,Auto,0,"3,797"
+Mississippi,Home Equity,0,"4,103"
+Mississippi,Purchase,"2,618.72","11,456"
+Mississippi,Refinance,728.0139779,"13,736"
+Mississippi,Personal,"4,332.49","16,157"

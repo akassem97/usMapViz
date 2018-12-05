@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style type="text/css">
+        /* Legend Font Style */
+        body {
+            font: 11px sans-serif;
+            background-color: #ffffff;
+        }
+        /* Legend Position Style */
+        .legend {   
+            position: absolute;
+            left: 20px;
+            top: 30px;
+        }
+        .axis text {
+            font: 10px sans-serif;
+        }
+        .axis line,
+        .axis path {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+        .tooltip {
+            font-family: "tangerine";
+            pointer-events:none;
+            position: absolute;
+            max-width: 8em;
+            text-align:center;
+            font-size: 20px;
+            background: lightblue;
+        }
+        svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.bar-chart rect {
+  fill: steelblue;
+}
+.bar:hover {
+  fill: blue;
+}
+
+
+.bar { fill: steelblue; }
+
+
+.bar-chart text {
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+.axis {
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+path:hover {
+	fill-opacity: .6;
+    
+}
+</style>
+
+    <h1 style="text-align:left; color:steelblue">
+        <bold>Customer Value Score</bold>
+    </h1>
+    <br>
+    <br>
+    <div class="tooltip" class="hidden">
+        <p><span id="label"></span></p>
+    </div>
+    <script type="text/javascript">
+        createMap();
+        createBar();
+      function createMap()
+      {
+        //Width and height of map
+        var margin = {
+            top: 5,
+            right: 5,
+            bottom: 5,
+            left: 5
+        },
+            width = 1060 - margin.left - margin.right,
+            height = 620 - margin.top - margin.bottom;
+        var lowColor = '#ccccff'
+        var highColor = '#660066'
+        // D3 Projection
+        var projection = d3.geoAlbersUsa()
+            .translate([width / 2, height / 2]) // translate to center of screen
+            .scale([1000]); // scale things down so see entire US
+        // Define path generator
+        var path = d3.geoPath() // path generator that will convert GeoJSON to SVG paths
+            .projection(projection); // tell path generator to use albersUsa projection
+        //Create SVG element and append map to the SVG
+        // Define Tooltip
+        var tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+        // Load in my states data!
+        d3.csv("cvs_sample.csv", function(data) {
+            var dataArray = [];
+            for (var d = 0; d < data.length; d++) {
+                dataArray.push(parseFloat(data[d].Customer_Value_Score))
+                console.log(data[d].Page_Views);
+            }
+            var minVal = d3.min(dataArray)
+            var maxVal = d3.max(dataArray)
+            var ramp = d3.scaleLinear().domain([minVal, maxVal]).range([lowColor, highColor])
+            // Load GeoJSON data and merge with states data
+            d3.json("us-states.json", function(json) {
+                // Loop through each state data value in the .csv file
+                for (var i = 0; i < data.length; i++) {
+                    // Grab State Name
+                    var dataState = data[i].state;
+                    // Grab data value
+                    var dataValue = data[i].Customer_Value_Score;
+                    var dataValueP = data[i].Page_Views;
+                    // Find the corresponding state inside the GeoJSON
+                    for (var j = 0; j < json.features.length; j++) {
+                        var jsonState = json.features[j].properties.name;
+                        if (dataState == jsonState) {
+                            // Copy the data value into the JSON
+                            json.features[j].properties.Customer_Value_Score = dataValue;
+                            json.features[j].properties.Page_Views = dataValueP;
+                            // Stop looking through the JSON
+                            break;
+                        }
+                    }
+                }
+                // Bind the data to the SVG and create one path per GeoJSON feature
+                svg.selectAll("path")
+                    .data(json.features)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .style("stroke", "#fff")
+                    .style("stroke-width", "1")
+                    .style("fill", function(d) {
+                    return ramp(d.properties.Customer_Value_Score)
+                    })
+                    .on("mouseover", function(d) {
+                        tooltip.transition()
+                            .duration(200)
+                            .style("opacity", .9);
+                    tooltip.html("<strong>" + d.properties.name  + "</strong>" + "<br/>" + "Customer Value Score: " +(d.properties.Customer_Value_Score) + "<br/>" + "Page Views: " + (d.properties.Page_Views))
+                            .style("left", (d3.event.pageX) + "px")
+                            .style("top", (d3.event.pageY) + "px");
+                    })
+                    .on("mouseout", function (d) {
+                    tooltip.transition()
+                        .duration(200)
+                        .style("opacity", 0);
+
+                svg.append("g")
+                .attr("class", "bubble")
+                .selectAll("circle")
+                        .data(topojson.feature(us, us.objects.states).features)
+                    .enter().append("circle")
+                });
+                // add a legend
+                var w = 140,
+                    h = 300;
+                var key = d3.select("body")
+                    .append("svg")
+                    .attr("width", w)
+                    .attr("height", h)
+                    .attr("class", "legend");
+                var legend = key.append("defs")
+                    .append("svg:linearGradient")
+                    .attr("id", "gradient")
+                    .attr("x1", "100%")
+                    .attr("y1", "0%")
+                    .attr("x2", "100%")
+                    .attr("y2", "100%")
+                    .attr("spreadMethod", "pad");
+                legend.append("stop")
+                    .attr("offset", "0%")
+                    .attr("stop-color", highColor)
+                    .attr("stop-opacity", 1);
+                legend.append("stop")
+                    .attr("offset", "100%")
+                    .attr("stop-color", lowColor)
+                    .attr("stop-opacity", 1);
+                key.append("rect")
+                    .attr("width", w - 100)
+                    .attr("height", h)
+                    .style("fill", "url(#gradient)")
+                    .attr("transform", "translate(0,10)");
+                var y = d3.scaleLinear()
+                    .range([h, 0])
+                    .domain([minVal, maxVal]);
+                var yAxis = d3.axisRight(y);
+                key.append("g")
+                    .attr("class", "y axis")
+                    .attr("transform", "translate(41,10)")
+                    .call(yAxis)
+            });
+        });
+}
+
+//BAR GRAPH
+function createBar()
+{
+// set the dimensions and margins of the graph
+var margin = {top: 20, right: 20, bottom: 100, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// set the ranges
+var x = d3.scaleBand()
+          .range([0, width])
+          .padding(0.1);
+var y = d3.scaleLinear()
+          .range([height, 0]);
+          
+// append the svg object to the body of the page
+// append a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+// get the data
+d3.csv("productReportingPerState.csv", function(error, data) {
+  if (error) throw error;
+
+  console.log(data);
+
+  // format the data
+  /*
+  data.forEach(function(d) {
+    d.Page_Views = +d.Page_Views;
+  });
+*/
+
+  data.sort(function(d,i){
+      return i.Page_Views - d.Page_Views;
+  });
+  data.forEach(function(d){
+      d.Page_Views = parseInt(d.Page_Views);
+  });
+
+  // Scale the range of the data in the domains
+  x.domain(data.map(function(d) { return d.Product_Reporting; }));
+  y.domain([0, d3.max(data, function(d) { return d.Page_Views; })]);
+
+  // append the rectangles for the bar chart
+  svg.selectAll(".bar")
+      .data(data)
+      .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.Product_Reporting); })
+      .attr("width", x.bandwidth())
+      .attr("y", function(d) { return y(d.Page_Views); })
+      .attr("height", function(d) { return height - y(d.Page_Views); });
+
+  // add the x Axis
+  svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x)).selectAll("text")
+      .style("text-anchor", "end")
+      .attr("dx", "-.8em")
+      .attr("dy", "-.55em")
+      .attr("transform", "rotate(-90)" );
+
+  // add the y Axis
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+  
+
+});
+}
+    
+</script>
+</head>
+<body>
+
+ 
+</body>
+</html>
